@@ -11,7 +11,7 @@ export const BRNDApp = () => {
 
     const fetchData = async() => {
         
-        await fetch('http://localhost/tests/wordpress/wp-json/custom/v2/home-page', {
+        await fetch('https://brnd.djz90.website/wp-json/custom/v2/home-page', {
           method: 'GET',
           headers:{ 'Content-Type': 'application/json' }
         }).then(response => response.json())
