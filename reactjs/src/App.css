@@ -1,0 +1,159 @@
+body {
+	background-color: #f9f8f9;
+  height: 100%;
+}
+html {
+  scroll-behavior: smooth;
+  background-color: #f9f8f9;
+  height: 100%;
+}
+ul, ol {
+    margin: 0 0 1.5em 3em;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+*{margin:0; padding:0}
+li,ul {list-style:none}
+a {text-decoration:none}
+
+.contents {
+	height: 2750px; 
+  margin: 0 auto; 
+}
+
+img {width: 100%;}
+.m0 {
+    position: absolute;
+    left: 20px;
+    top: 60%;
+    width: 50%;
+		z-index: 3;
+}
+.m1 {
+    position: absolute;
+    right: 20px;
+    top: 60%;
+		z-index: 0;
+		width: 29%;
+}
+.m2 {
+    position: absolute;
+    left: 20px;
+    top: 140%;
+    width: 37%;
+		z-index: 3;
+}
+.m3 {
+    position: absolute;
+    left: 43%;
+    top: 150%;
+    width: 36%;
+    z-index: 0;
+}
+.m4 {
+    position: absolute;
+    left: 10%;
+    top: 220%;
+    width: 35.5%;
+		z-index: 3;
+}
+.m5 {
+    position: absolute;
+    right: 20px;
+    top: 285%;
+    width: 49%;
+		z-index: 0;
+}
+
+.headerWrapper{
+	width: 100%;
+}
+.topBarSection{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+  padding: 20px 0;
+}
+.brandData{
+	margin-left: 20px;
+}
+.custom-logo{
+  width: calc(100% - 40px);
+}
+.brandData p{ margin-bottom: 0; }
+
+.navWrapper .menu{
+	display: flex;
+}
+.navWrapper .menu li{
+	margin-right: 20px;
+}
+    
+.brandLogo{
+	width: 100%;
+	position: fixed;
+	top: 97px;
+	z-index: 1;
+  padding: 0 20px;
+}
+.wpTitle{
+	font-family: 'M PLUS 1', sans-serif;
+	font-size: calc(32.2vw);
+	margin: 0;
+}
+
+.site-footer{
+	display: flex;
+  justify-content: space-between;
+  background-color: #f9f8f9;
+}
+.columns{
+	display: flex;
+}
+.mx{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.mr{
+	margin-right: 5px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
